@@ -1,144 +1,113 @@
-const logotext = "JOHN";
+const logotext = "LEONARD";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Leonard Thuranira",
+    description: "I’m a data-driven problem solver with a background in Accounting and Data Science, turning business data into clear, actionable insights.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Leonard Thuranira",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I turn data into insights",
+        second: "I build analytical dashboards",
+        third: "I solve business problems with data",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Data-driven problem solver with experience in Accounting and Data Science, focused on building dashboards and models that support decision making.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I am a data-driven problem solver with a background in Accounting and Data Science. I specialize in turning business data into clear, actionable insights through data cleaning, exploratory analysis, and visualization using Power BI, SQL, and Python. With a foundation in accounting and auditing, I combine business understanding with analytical rigor to ensure data supports strategic and operational decisions.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Accountant Attaché",
+        where: "Tax & Financial Data Analysis",
+        date: "May 2024 – Aug 2024",
     },
 ];
 
 const skills = [{
         name: "Python",
+        value: 85,
+    },
+    {
+        name: "SQL",
+        value: 85,
+    },
+    {
+        name: "Power BI",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "PostgreSQL",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Tableau",
+        value: 75,
     },
     {
-        name: "Jquery",
+        name: "Excel (advanced)",
+        value: 90,
+    },
+    {
+        name: "pandas / NumPy",
         value: 85,
+    },
+    {
+        name: "Scikit-Learn",
+        value: 80,
+    },
+    {
+        name: "Matplotlib",
+        value: 80,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Data Cleaning & Transformation",
+        description: "Preparing, cleaning, and structuring raw business data to ensure accuracy and reliability for reporting and analysis.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Dashboard Development & Reporting",
+        description: "Designing intuitive dashboards in Power BI and Excel that help stakeholders monitor KPIs, track performance, and make informed decisions.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Exploratory Data Analysis & Insights",
+        description: "Exploring datasets using Python, SQL, and visualization tools to uncover trends, patterns, and opportunities.",
+    },
+    {
+        title: "Machine Learning & Predictive Modeling",
+        description: "Building and evaluating predictive models to support use cases such as loan eligibility and business forecasting.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/300?random=1",
+        description: "Full Sales Data Visualization — Power BI dashboard analyzing revenue drivers, trends, and KPIs across products and time.",
+        link: "https://www.datascienceportfol.io/leonardthuranira",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/300?random=2",
+        description: "Loan Eligibility Prediction — Machine learning model and interface to classify loan applications and speed up underwriting.",
+        link: "https://www.datascienceportfol.io/leonardthuranira",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/300?random=3",
+        description: "Café Sales Cleaning & Business Insights — Python EDA on POS data to support forecasting, inventory, and menu optimization.",
+        link: "https://www.datascienceportfol.io/leonardthuranira",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/300?random=4",
+        description: "Netflix SQL Movies Analysis — SQL project uncovering content trends, genres, and production patterns over 20+ years.",
+        link: "https://www.datascienceportfol.io/leonardthuranira",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "Leonardthuranira253@gmail.com",
+    YOUR_FONE: "+254758445536",
+    description: "Let’s connect about data analytics, dashboarding, and decision support. I’m especially interested in roles where I can combine accounting knowledge with data science to drive measurable business impact.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -149,7 +118,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/leonard-thuranira-67785024a/",
     twitter: "https://twitter.com",
 };
 export {
